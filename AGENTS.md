@@ -41,3 +41,10 @@ Código en `src/main/java/pa/gob/migracion/tramites/`, organizado por feature (`
 ## Orden de lectura para una IA
 
 `AGENTS.md`, `docs/INDEX.md`, `docs/proyecto/estado-actual.md` y solo lo que la tarea necesite. El backlog (175 historias) no se carga entero: se consulta por tarjeta.
+
+Cómo llega cada IA a este archivo:
+
+- Claude Code lee `CLAUDE.md`, que importa este archivo.
+- Gemini CLI lee `GEMINI.md`, que remite a este archivo.
+- Codex (ChatGPT) lee `AGENTS.md` directamente; por eso no hay un archivo propio de ChatGPT.
+- En el chat web de cualquiera de las tres, que no lee el repo, se adjuntan `AGENTS.md` y `docs/INDEX.md` al empezar.
