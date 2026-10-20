@@ -1,0 +1,40 @@
+# Compilación y artefactos de construcción (Maven / Java)
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Logs y ficheros temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Entornos de desarrollo e IDEs
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.factorypath
+*.sublime-workspace
+*.sublime-project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Katalon Studio generados / reportes dinámicos
+Reports/
+Libs/
+.cache/
+bin/
+
+# Secretos y notas locales
+.env
+.obsidian/
